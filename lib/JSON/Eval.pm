@@ -43,7 +43,7 @@ sub decode {
 sub encode {
 	my $self = shift;
 	my $o    = $self->deparse_object(@_);
-	$$self->encode($o);	
+	$$self->encode($o);
 }
 
 sub eval_object {
