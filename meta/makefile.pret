@@ -5,6 +5,7 @@
 `JSON-Eval`
 	:test-requirement       [ :on "Test::Fatal"^^:CpanId ];
 	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
+	:runtime-requirement    [ :on "perl 5.008006"^^:CpanId ];
 	:runtime-requirement    [ :on "JSON::MaybeXS"^^:CpanId ];
 	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
 	.
