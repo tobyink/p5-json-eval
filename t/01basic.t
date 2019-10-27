@@ -4,7 +4,7 @@
 
 =head1 PURPOSE
 
-Test that JSON::Eval compiles.
+Test that JSON::Eval compiles and works.
 
 =head1 AUTHOR
 

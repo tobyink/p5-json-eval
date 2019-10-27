@@ -53,7 +53,7 @@ sub eval_object {
 		return $safe_eval->($o->{'$eval'});
 	}
 	if (ref $o eq 'HASH' and keys(%$o)==1 and exists $o->{'$scalar'}) {
-		my $x = $o->{'$scalar'};
+		my $x = $self->eval_object($o->{'$scalar'});
 		return \$x;
 	}
 	if (ref $o eq 'ARRAY') {
