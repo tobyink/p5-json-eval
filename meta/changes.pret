@@ -4,3 +4,9 @@
 	issued  2019-10-27;
 	label   "Initial release".
 
+`MooX-Press 0.002 cpan:TOBYINK`
+	issued  2019-10-27;
+	changeset [
+		item "Add dependency on PadWalker."^^Packaging;
+	].
+
