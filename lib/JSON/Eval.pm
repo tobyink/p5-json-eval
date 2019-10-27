@@ -146,7 +146,7 @@ JSON::Eval - eval Perl code found in JSON
 
 Perl data structures can contain several types of reference which do not have
 a JSON equivalent. This module provides a technique for encoding and decoding
-two of those reference types as JSON — coderefs and scalarrefs. (It also has
+two of those reference types as JSON: coderefs and scalarrefs. (It also has
 partial support for L<Type::Tiny> objects.)
 
 Coderefs must be self-contained, not closing over any variables. They will be
